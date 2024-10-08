@@ -23,9 +23,9 @@ This action triggers workflow on another repository.
 ## Example usage
 
 ```
-uses: rshop/trigger-workflow-action@v1
+uses:@v1
 with:
   token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-  repository: 'rshop/repo'
+  repository: 'owner/repo'
   workflowId: 12345
 ```
