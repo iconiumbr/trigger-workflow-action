@@ -1,5 +1,5 @@
-name: 'Trigger workflow action'
-description: 'Trigger workflow in another repository'
+name: 'Trigger workflow action with custom input'
+description: 'Triggers action on workflow using a custom input'
 branding:
   icon: arrow-right-circle
   color: green
