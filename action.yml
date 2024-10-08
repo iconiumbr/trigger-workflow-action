@@ -26,4 +26,4 @@ runs:
   steps:
     - shell: bash
       run: |
-        curl --header 'Authorization: Bearer ${{ inputs.token }}' -X POST https://api.github.com/repos/${{ inputs.repository }}/actions/workflows/${{ inputs.workflowId }}/dispatches -d '{"ref":"${{ inputs.branch }}","inputs":{"tag-name":"${{ inputs.version}}"}'
+        curl --header 'Authorization: Bearer ${{ inputs.token }}' -X POST https://api.github.com/repos/${{ inputs.repository }}/actions/workflows/${{ inputs.workflowId }}/dispatches -d '{"ref":"${{ inputs.branch }}","inputs":{"tag-name":"${{ inputs.version}}"}}'
