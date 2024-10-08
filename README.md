@@ -23,7 +23,7 @@ This action triggers workflow on another repository.
 ## Example usage
 
 ```
-uses:@v1
+uses: iconiumbr/trigger-workflow-action@v1
 with:
   token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
   repository: 'owner/repo'
